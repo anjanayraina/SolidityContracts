@@ -1,0 +1,10 @@
+Visibility in Solidity :
+
+1) public - the state variable with this visibility can be ascessed from
+any contract and can be called and changed from outside the contract as well 
+
+2 ) internal - can be ascessed from within the contract and from the derived 
+contract as well.
+
+3 ) private  - can be ascessed from only inside the contract
+
