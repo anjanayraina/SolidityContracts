@@ -1,5 +1,5 @@
 Visibility in Solidity :
-
+State Variables : 
 1) public - the state variable with this visibility can be ascessed from
 any contract and can be called and changed from outside the contract as well 
 
@@ -7,4 +7,11 @@ any contract and can be called and changed from outside the contract as well
 contract as well.
 
 3 ) private  - can be ascessed from only inside the contract
+
+
+Functions : 
+
+The visibility modifiers are the same as those of state variable with
+just one addition , external : these modifiers allows the funtion to be 
+called only from outside of the contract.
 
