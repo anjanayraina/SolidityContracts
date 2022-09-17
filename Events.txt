@@ -1,0 +1,3 @@
+events are transcational logs for the contracts .They store the data that is
+emmitted to them. Its easier for a dapp to ascess the data if it has been emitted 
+to the blockchain . 
