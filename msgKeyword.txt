@@ -1,3 +1,6 @@
 msg.sender :  This represnets the accont that origonayed the call in the function body 
 This also is the address of the account that signed a transaction if any exists in the Blockchain 
 
+msg.value : This is the amount of ether sent in that call !!!
+
+msg.data : This represents the data that was in that certain transactoin !!  
