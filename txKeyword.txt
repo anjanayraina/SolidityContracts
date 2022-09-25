@@ -1,0 +1,6 @@
+This keyword gives the ascess to transaction related data that just took place . 
+
+tx.gasprice : This gives the gas price in that certain transation call 
+
+tx.origin : This gives us the origin of that transaction.
+
