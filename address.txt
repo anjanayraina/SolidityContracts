@@ -1,0 +1,7 @@
+address.balance :  The balance of the address, in wei. For example, the current contract balance is address(this).balance.
+
+address.transfer(__amount__)
+Transfers the amount (in wei) to this address, throwing an exception on any error.
+
+address.send(__amount__)
+Similar to transfer, only instead of throwing an exception, it returns false on error.

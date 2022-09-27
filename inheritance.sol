@@ -16,7 +16,7 @@ return owner;
 
 
 }
-
+    
 contract child is inheritance{
 
 function getOwnerinChiild() public view returns (address){
