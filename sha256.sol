@@ -5,3 +5,6 @@ contract Test {
       return keccak256("ABC");
    }  
 }
+
+//sha256(bytes memory) returns (bytes32) 
+// this is basically used to get the sha256 hash of the given input
