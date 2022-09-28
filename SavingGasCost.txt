@@ -1,0 +1,8 @@
+1 ) Reduce Expensive Operations  , the gas cost is calculated based on the op code of the functions that are
+called like SSTORE is the opcode takes up a lot of gas cost and should always avoid if possible.
+
+2) Short Circuiting  : You can short circuit the functions to save the gas cost of the other with the higer cost . For ex 
+two functions f() and g() , where g() has higher cost , what you can do is keep it like f() || g()  , in this way if f() is true then 
+g() will not be executed saving some more gass cost. 
+
+3) Loop Removal : Loops cost gas cost as well , so it will be efficient to remove unnecessary loops and do the calculations in one go. 
