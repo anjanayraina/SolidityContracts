@@ -1,0 +1,6 @@
+Random Number generation in solidity that too securily is a tough job to do in Solidity. 
+One common vurnerability that was explotied in the smart conytract that used the number of block head 
+in the Ethereum Blockchain to generate the Random  , but this can be very easily exploited by gettiing the 
+block head for yourself and passing it to the function that checks for the random function .
+
+One of the secure way of generating a 
