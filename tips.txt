@@ -1,0 +1,2 @@
+While sending money using smart contract , the contract should always be
+prepared for for transaction failures and must add a fucntion to handle that.
