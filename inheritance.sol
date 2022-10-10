@@ -25,3 +25,7 @@ function getOwnerinChiild() public view returns (address){
 }
 
 }
+
+// a derived can ascess all the non private members of the parent contract .
+// functoin overriding is also supported in Solidity
+// we can call the super classes fucntions and variables using the super keyword 
