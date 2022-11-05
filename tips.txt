@@ -1,2 +1,31 @@
 While sending money using smart contract , the contract should always be
 prepared for for transaction failures and must add a fucntion to handle that.
+1. Use bytes32 instead of string or bytes array.
+
+2. Use uint instead of bool
+
+3. Use .call method instead of .send or .transfer. You can specify custom gas value in .call unlike precomputed value in the other two.
+
+4. Load state variables to memory (local variables) if used many times. Reading values from storage is costly.
+
+5. Use interfaces instead of importing full code.
+
+6. Use calldata instead of memory with function parameters.
+
+7. Hardcode precomputed values.
+
+8. Pack your storage variables.
+
+9. Use external keyword instead of public wherever applicable.
+
+10. Write the lower gas costing operation first while using OR(||) and AND(&&).
+
+11. Free up the space of the variable you don't need anymore using delete keyword.
+
+12. Use immutable and constant with variables that won't be changed.
+
+13. Use unchecked block while incrementing and decrementing a value if you're sure it won't overflow or underflow.
+
+14. Use errors and revert instead of string messages with require statement.
+
+15. Use indexed events.
