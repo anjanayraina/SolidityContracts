@@ -8,3 +8,5 @@ g() will not be executed saving some more gass cost.
 3) Loop Removal : Loops cost gas cost as well , so it will be efficient to remove unnecessary loops and do the calculations in one go. 
 
 4 ) storage takes less gas cost than memeory as it just points to the main data rather than copying it in the memory as done by memory!!.
+
+5) Minimize the on chain data as much as possible so that it doesnt cost more gas to upload the contract on to the chain
