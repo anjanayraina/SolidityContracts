@@ -1,0 +1,4 @@
+A relayer contract is used when you would want to seperate the user sending the transation and the user that pays the gas fee in the 
+transaction . The transaction that goes though is called a gasless meta transaction . This is taken through an API provided
+by the OpenZepplin Defeders . This is a secure way of doing so . They automatically provide you with a privte key to go thriough your 
+transactions .
