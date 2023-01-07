@@ -1,0 +1,7 @@
+The main 3 ways of assigning data in solidity is memory , storage and calldata 
+
+Memory and Calldata are local forms of data storage and are used in the paramaeter of the functions to locally store the data
+while the execution of the function. 
+
+Memory and Calldata do mostly the same thing , its just that the data in memory can be changed but the data in calldata cant be chnaged .
+The data of calldata type is view only and cant be changed in the runtime . 
