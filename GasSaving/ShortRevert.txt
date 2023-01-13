@@ -1,0 +1,12 @@
+Try to keep the reverts to a size that is less than 32 bytes so that they dont end up taking another slot , kind of like this : 
+
+function expensiveRevertStrings() {
+  require(a < b; "long revert string over 32 bytes");
+}
+
+Or you can also write comments on your code if the revert statement is very long that maps the revert statement to the comment , kind of like this : 
+
+// a: long revert string over 32 bytes
+function cheapRevertStrings() {
+  require(a < b; "a");
+}
