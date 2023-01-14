@@ -1,0 +1,2 @@
+// The functions that are not payable also have a check msg.value == 0 , this costs additional 21 gas to check. So, if there is no need
+// for this check , you can just add the fucntion as payable to save some gas . 
