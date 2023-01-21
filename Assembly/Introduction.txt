@@ -1,0 +1,2 @@
+Solidity Assembly is basically used to write code that directly interacts with the memeory bypassing the security features of the language 
+Assembly is usually used to write functions in a library in Solidity
